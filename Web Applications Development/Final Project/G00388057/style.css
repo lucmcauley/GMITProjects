@@ -1,0 +1,43 @@
+/* Sets the background colour and font of the body of the webpage */
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: antiquewhite;
+}
+
+/* Puts the card title in bold */
+.card-title {
+  font-weight: bolder;
+}
+
+/* Italicises the description in the description*/
+.card-text {
+  font-style: oblique;
+}
+
+/* Sets a coral coloured border around the cards */ 
+.card {
+  border-color: coral;
+}
+
+/* Highlights the bottom of the card when the user hovers over it */
+.card:hover{
+    background-color: lightblue;
+}
+
+/* aligns the jumbotron text to the center and sets the background colour to azure */
+#jumbotron {
+  text-align: center;
+  background-color: azure;
+}
+
+/* Allows the overflow setting in the description in the cards */
+#overflowText{
+  height: 150px;
+  overflow: scroll;
+}
+
+/* Centers the error message when logging in as well as sets the colour to red */
+#errorMessage{
+  color: red;
+  text-align: center;
+}
