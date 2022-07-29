@@ -1,0 +1,1053 @@
+
+this is the output for the following commands for the CATC course
+
+
+
+
+------------------------------
+output for date
+------------------------------
+
+Fri May  1 13:45:02 UTC 2020
+
+
+
+------------------------------
+output for hostname
+------------------------------
+
+ip-172-31-3-33
+
+
+
+------------------------------
+output for arch
+------------------------------
+
+x86_64
+
+
+
+------------------------------
+output for uname -a
+------------------------------
+
+Linux ip-172-31-3-33 4.4.0-1101-aws #112-Ubuntu SMP Thu Jan 9 11:27:02 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+
+
+
+------------------------------
+output for uptime
+------------------------------
+
+ 13:45:02 up 60 days, 16:26, 10 users,  load average: 0.00, 0.00, 0.00
+
+
+
+------------------------------
+output for whoami
+------------------------------
+
+lucmcauley
+
+
+
+------------------------------
+output for who
+------------------------------
+
+aleksanderdziki pts/0        2020-05-01 12:10 (37.228.226.85)
+ivankacosic pts/1        2020-05-01 12:38 (77.107.198.66)
+elenamartinlopez pts/2        2020-05-01 10:48 (37.228.241.247)
+diarmaidtoomey pts/3        2020-05-01 09:51 (109.79.82.38)
+adedotunadekeye pts/4        2020-05-01 10:56 (37.228.228.173)
+lucmcauley pts/5        2020-05-01 13:43 (37.228.254.39)
+leanneboyd pts/6        2020-05-01 10:23 (89.124.19.3)
+aronnutley pts/7        2020-05-01 12:46 (80.233.45.127)
+emmetmccourt pts/8        2020-05-01 13:00 (80.233.56.101)
+leanneboyd pts/9        2020-05-01 13:15 (89.124.19.3)
+
+
+
+------------------------------
+output for finger
+------------------------------
+
+Login             Name       Tty      Idle  Login Time   Office     Office Phone
+adedotunadekeye              pts/4          May  1 10:56 (37.228.228.173)
+aleksanderdziki              pts/0          May  1 12:10 (37.228.226.85)
+aronnutley                   pts/7          May  1 12:46 (80.233.45.127)
+diarmaidtoomey               pts/3    3:53  May  1 09:51 (109.79.82.38)
+elenamartinlopez             pts/2      18  May  1 10:48 (37.228.241.247)
+emmetmccourt                 pts/8          May  1 13:00 (80.233.56.101)
+ivankacosic                  pts/1      51  May  1 12:38 (77.107.198.66)
+leanneboyd                   pts/6          May  1 10:23 (89.124.19.3)
+leanneboyd                   pts/9       1  May  1 13:15 (89.124.19.3)
+lucmcauley                   pts/5          May  1 13:43 (37.228.254.39)
+
+
+
+------------------------------
+output for w
+------------------------------
+
+ 13:45:02 up 60 days, 16:26, 10 users,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+aleksand pts/0    37.228.226.85    12:10   45.00s  0.07s  0.07s -bash
+ivankaco pts/1    77.107.198.66    12:38   51:34   0.04s  0.04s -bash
+elenamar pts/2    37.228.241.247   10:48   18:36   0.13s  0.13s -bash
+diarmaid pts/3    109.79.82.38     09:51    3:53m  0.04s  0.04s -bash
+adedotun pts/4    37.228.228.173   10:56    5.00s  2.07s  2.03s vim
+lucmcaul pts/5    37.228.254.39    13:43    6.00s  0.06s  0.00s w
+leannebo pts/6    89.124.19.3      10:23    6.00s  0.54s  0.09s vim while.sh
+aronnutl pts/7    80.233.45.127    12:46    6.00s  0.23s  0.16s vim aronNutleyTea2.sh
+emmetmcc pts/8    80.233.56.101    13:00   54.00s  0.54s  0.10s -bash
+leannebo pts/9    89.124.19.3      13:15    1:19   0.04s  0.04s -bash
+
+
+
+------------------------------
+output for top -bn1
+------------------------------
+
+top - 13:45:02 up 60 days, 16:26, 10 users,  load average: 0.00, 0.00, 0.00
+Tasks: 177 total,   1 running, 172 sleeping,   4 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  1014424 total,   131088 free,   181936 used,   701400 buff/cache
+KiB Swap:        0 total,        0 free,        0 used.   596564 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+    1 root      20   0  185180   5344   3576 S  0.0  0.5   1:11.17 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.03 kthreadd
+    3 root      20   0       0      0      0 S  0.0  0.0   0:53.02 ksoftirqd/0
+    5 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0H
+    7 root      20   0       0      0      0 S  0.0  0.0   0:58.71 rcu_sched
+    8 root      20   0       0      0      0 S  0.0  0.0   0:00.00 rcu_bh
+    9 root      rt   0       0      0      0 S  0.0  0.0   0:00.00 migration/0
+   10 root      rt   0       0      0      0 S  0.0  0.0   0:25.57 watchdog/0
+   11 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kdevtmpfs
+   12 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 netns
+   13 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 perf
+   14 root      20   0       0      0      0 S  0.0  0.0   0:00.00 xenwatch
+   15 root      20   0       0      0      0 S  0.0  0.0   0:00.00 xenbus
+   17 root      20   0       0      0      0 S  0.0  0.0   0:01.27 khungtaskd
+   18 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 writeback
+   19 root      25   5       0      0      0 S  0.0  0.0   0:00.00 ksmd
+   20 root      39  19       0      0      0 S  0.0  0.0   0:08.27 khugepaged
+   21 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 crypto
+   22 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kintegrityd
+   23 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   24 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kblockd
+   25 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 ata_sff
+   26 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 md
+   27 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 devfreq_wq
+   30 root      20   0       0      0      0 S  0.0  0.0   0:02.06 kswapd0
+   31 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 vmstat
+   32 root      20   0       0      0      0 S  0.0  0.0   0:00.00 fsnotify_ma+
+   33 root      20   0       0      0      0 S  0.0  0.0   0:00.00 ecryptfs-kt+
+   49 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kthrotld
+   50 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   51 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   52 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   53 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   54 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   55 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   56 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   57 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   58 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   59 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   60 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   61 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   62 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   63 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   64 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   65 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   66 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   67 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   68 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   69 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   70 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   71 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   72 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   73 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   74 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 nvme
+   75 root      20   0       0      0      0 S  0.0  0.0   0:00.00 scsi_eh_0
+   76 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 scsi_tmf_0
+   77 root      20   0       0      0      0 S  0.0  0.0   0:00.00 scsi_eh_1
+   78 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 scsi_tmf_1
+   83 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 ipv6_addrco+
+   84 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   97 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 deferwq
+  249 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 raid5wq
+  279 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+  301 root      20   0       0      0      0 S  0.0  0.0   0:15.74 jbd2/xvda1-8
+  302 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 ext4-rsv-co+
+  372 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 iscsi_eh
+  380 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 ib_addr
+  386 root      20   0   28432   2708   2344 S  0.0  0.3   9:49.04 systemd-jou+
+  388 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 ib_mcast
+  390 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 ib_nl_sa_wq
+  391 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 ib_cm
+  394 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 iw_cm_wq
+  396 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 rdma_cm
+  405 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kauditd
+  421 root      20   0  102964    792    608 S  0.0  0.1   0:00.00 lvmetad
+  541 root       0 -20       0      0      0 S  0.0  0.0   0:00.88 kworker/0:1H
+  919 root      20   0   16116   2448   1592 S  0.0  0.2   0:01.72 dhclient
+ 1069 root      20   0    5216    112      0 S  0.0  0.0   2:20.15 iscsid
+ 1070 root      10 -10    5716   3512   2428 S  0.0  0.3  10:42.96 iscsid
+ 1072 root      20   0    4392   1284   1200 S  0.0  0.1   0:00.00 acpid
+ 1075 syslog    20   0  260624   3484   2060 S  0.0  0.3   2:51.75 rsyslogd
+ 1077 root      20   0  274228   5152   3128 S  0.0  0.5   5:21.54 accounts-da+
+ 1078 message+  20   0   43012   3376   2752 S  0.0  0.3   0:10.85 dbus-daemon
+ 1090 root      20   0  637048   3628   1392 S  0.0  0.4   0:21.77 lxcfs
+ 1100 daemon    20   0   26040   1900   1708 S  0.0  0.2   0:00.05 atd
+ 1110 root      20   0   26064   2360   2096 S  0.0  0.2   0:06.14 cron
+ 1118 root      20   0   28612   2924   2552 S  0.0  0.3   0:06.64 systemd-log+
+ 1145 root      20   0  277176   3760   3084 S  0.0  0.4   0:01.71 polkitd
+ 1159 root      20   0  171704  12228   4140 S  0.0  1.2   0:00.08 unattended-+
+ 1173 root      20   0   13368    140      0 S  0.0  0.0   0:00.29 mdadm
+ 1228 root      20   0   14652   1548   1412 S  0.0  0.2   0:00.04 agetty
+ 1243 root      20   0   12836   1556   1428 S  0.0  0.2   0:00.01 agetty
+ 1678 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 loop1
+12475 root       0 -20       0      0      0 S  0.0  0.0   0:00.01 loop4
+12977 root      20   0   65508   3820   3104 S  0.0  0.4   2:53.73 sshd
+14895 root      20   0   42300   3208   2616 S  0.0  0.3   0:02.81 systemd-ude+
+15578 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 loop0
+15595 root      20   0  302024  21600   9796 S  0.0  2.1   0:16.39 snapd
+19966 systemd+  20   0  100320   1956   1748 S  0.0  0.2   0:03.39 systemd-tim+
+24497 diarmai+  20   0   45164   4484   3764 S  0.0  0.4   0:00.12 systemd
+24503 diarmai+  20   0  208632   1876      0 S  0.0  0.2   0:00.00 (sd-pam)
+24945 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 xfsalloc
+24946 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 xfs_mru_cac+
+27714 root      20   0   92828   6928   6000 S  0.0  0.7   0:00.01 sshd
+27777 diarmai+  20   0   92828   4472   3532 S  0.0  0.4   0:00.01 sshd
+27778 diarmai+  20   0   21472   5256   3272 S  0.0  0.5   0:00.04 bash
+28169 root      20   0   92828   6704   5776 S  0.0  0.7   0:00.01 sshd
+28171 leanneb+  20   0   45164   4660   3944 S  0.0  0.5   0:00.02 systemd
+28173 leanneb+  20   0  208632   1880      0 S  0.0  0.2   0:00.00 (sd-pam)
+28217 leanneb+  20   0   93032   4532   3296 S  0.0  0.4   0:14.38 sshd
+28218 leanneb+  20   0   21488   5500   3432 S  0.0  0.5   0:00.15 bash
+28638 leanneb+  20   0   52792   8312   5088 T  0.0  0.8   0:00.16 vim
+28690 root      20   0   92828   6680   5752 S  0.0  0.7   0:00.01 sshd
+28692 elenama+  20   0   45164   4528   3820 S  0.0  0.4   0:00.02 systemd
+28694 elenama+  20   0  208632   1880      0 S  0.0  0.2   0:00.00 (sd-pam)
+28737 elenama+  20   0   92828   3600   2676 S  0.0  0.4   0:00.15 sshd
+28738 elenama+  20   0   21464   5424   3388 S  0.0  0.5   0:00.13 bash
+28848 root      20   0   92828   6936   6004 S  0.0  0.7   0:00.00 sshd
+28850 adedotu+  20   0   45164   4556   3840 S  0.0  0.4   0:00.01 systemd
+28852 root      20   0       0      0      0 S  0.0  0.0   0:00.12 kworker/0:1
+28853 adedotu+  20   0  208632   1880      0 S  0.0  0.2   0:00.00 (sd-pam)
+28918 adedotu+  20   0   93188   4928   3532 S  0.0  0.5   0:05.86 sshd
+28919 adedotu+  20   0   21464   5280   3260 S  0.0  0.5   0:00.04 bash
+29034 root      20   0   92828   6940   6016 S  0.0  0.7   0:00.00 sshd
+29075 elenama+  20   0   92828   4488   3532 S  0.0  0.4   0:00.01 sshd
+29076 elenama+  20   0   12876   2036   1880 S  0.0  0.2   0:00.00 sftp-server
+29529 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 loop3
+29669 root      20   0  284096   3784   2316 S  0.0  0.4   0:38.26 amazon-ssm-+
+29760 adedotu+  20   0   53004   8992   5552 S  0.0  0.9   0:02.03 vim
+29864 root      20   0   92828   6676   5748 S  0.0  0.7   0:00.01 sshd
+29868 aleksan+  20   0   45164   4632   3916 S  0.0  0.5   0:00.01 systemd
+29871 aleksan+  20   0  208632   1880      0 S  0.0  0.2   0:00.00 (sd-pam)
+29936 aleksan+  20   0   92828   3604   2680 S  0.0  0.4   0:00.16 sshd
+29937 aleksan+  20   0   21464   5240   3228 S  0.0  0.5   0:00.07 bash
+30229 leanneb+  20   0   52792   8720   5508 T  0.0  0.9   0:00.14 vim
+30441 root      20   0   92828   6664   5736 S  0.0  0.7   0:00.01 sshd
+30444 ivankac+  20   0   45164   4584   3872 S  0.0  0.5   0:00.00 systemd
+30446 ivankac+  20   0  208632   1880      0 S  0.0  0.2   0:00.00 (sd-pam)
+30492 ivankac+  20   0   92828   3480   2556 S  0.0  0.3   0:00.01 sshd
+30493 ivankac+  20   0   21464   5272   3256 S  0.0  0.5   0:00.04 bash
+30549 root      20   0       0      0      0 S  0.0  0.0   0:00.41 kworker/u30+
+30579 root      20   0   92828   6928   5996 S  0.0  0.7   0:00.01 sshd
+30581 aronnut+  20   0   45164   4616   3904 S  0.0  0.5   0:00.00 systemd
+30584 aronnut+  20   0  208632   1880      0 S  0.0  0.2   0:00.00 (sd-pam)
+30627 aronnut+  20   0   92828   4356   3404 S  0.0  0.4   0:00.32 sshd
+30628 aronnut+  20   0   21464   5280   3264 S  0.0  0.5   0:00.07 bash
+30706 root      20   0   92828   6920   5988 S  0.0  0.7   0:00.00 sshd
+30708 emmetmc+  20   0   45164   4624   3904 S  0.0  0.5   0:00.00 systemd
+30711 emmetmc+  20   0  208632   1880      0 S  0.0  0.2   0:00.00 (sd-pam)
+30754 emmetmc+  20   0   92828   4364   3396 S  0.0  0.4   0:00.29 sshd
+30755 emmetmc+  20   0   21464   5472   3444 S  0.0  0.5   0:00.10 bash
+30861 emmetmc+  20   0   53048   9068   5640 T  0.0  0.9   0:00.41 vim
+30869 emmetmc+  20   0   52828   8752   5584 T  0.0  0.9   0:00.03 vim
+30875 root      20   0   92828   6952   6024 S  0.0  0.7   0:00.01 sshd
+30939 leanneb+  20   0   92828   3556   2632 S  0.0  0.4   0:00.00 sshd
+30940 leanneb+  20   0   21472   5296   3272 S  0.0  0.5   0:00.04 bash
+30991 root      20   0       0      0      0 S  0.0  0.0   0:00.34 kworker/u30+
+31017 root      20   0   92828   6976   6048 S  0.0  0.7   0:00.00 sshd
+31059 aleksan+  20   0   92828   3560   2632 S  0.0  0.4   0:00.00 sshd
+31060 aleksan+  20   0   12876   2040   1880 S  0.0  0.2   0:00.00 sftp-server
+31067 root      20   0   92828   6636   5712 S  0.0  0.7   0:00.00 sshd
+31108 aleksan+  20   0   92828   4320   3340 S  0.0  0.4   0:00.00 sshd
+31109 aleksan+  20   0   12876   1992   1836 S  0.0  0.2   0:00.00 sftp-server
+31120 root      20   0  298492  26596   5076 S  0.0  2.6  11:50.23 fail2ban-se+
+31259 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0
+31343 aronnut+  20   0   53152   8840   5500 S  0.0  0.9   0:00.16 vim
+31353 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kworker/0:2
+31356 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kworker/0:3
+31358 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kworker/0:4
+31360 leanneb+  20   0   52792   8852   5632 S  0.0  0.9   0:00.09 vim
+31367 root      20   0   92828   6900   5968 S  0.0  0.7   0:00.00 sshd
+31369 lucmcau+  20   0   45164   4628   3912 S  0.0  0.5   0:00.00 systemd
+31373 lucmcau+  20   0  208632   1880      0 S  0.0  0.2   0:00.00 (sd-pam)
+31415 lucmcau+  20   0   92828   3500   2572 S  0.0  0.3   0:00.01 sshd
+31417 lucmcau+  20   0   21472   5280   3260 S  0.0  0.5   0:00.04 bash
+31442 lucmcau+  20   0   21284   5000   3144 S  0.0  0.5   0:00.02 FinalCATC.sh
+31464 lucmcau+  20   0   40528   3652   3084 R  0.0  0.4   0:00.00 top
+
+
+
+------------------------------
+output for history
+------------------------------
+
+    1  cd ls
+    2  ls cd
+    3  ls
+    4  cd
+    5  ls
+    6  pwd
+    7  mkdir Music
+    8  pwd
+    9  ls
+   10  cd music
+   11  cd Music
+   12  mkdir RuPaul
+   13  mkdir Corey Feldman
+   14  mkdir Li Dicky
+   15  rm Li Dicky
+   16  ls
+   17  rm -rLi Dicky
+   18  rm -r Li Dicky
+   19  ls
+   20  rm -r Corey Feldman
+   21  ls
+   22  mkdir "Corey Feldman"
+   23  mkdir "Lil Dicky"
+   24  cd RuPul
+   25  mkdir "Corey Feldman", "Lil Dicky", "RuPaul"
+   26  rm -r  "Corey Feldman", "Lil Dicky", "RuPaul"
+   27  ls
+   28  mkdir "Corey Feldman", "Lil Dicky", "RuPaul"
+   29  ls
+   30  rm -r  "Corey Feldman", "Lil Dicky", "RuPaul"
+   31  ls
+   32  rm -r  dir "Corey Feldman", "Lil Dicky", "RuPaul"
+   33  cd
+   34  rm -r Music
+   35  ls
+   36  mkdir Music
+   37  cd Music
+   38  mkdir RuPaul
+   39  mkdir "Corey Feldman"
+   40  mkdir "Lil Dicky"
+   41  ls
+   42  tree
+   43  cd Music/Corey Feldman
+   44  cd Music/RuPaul
+   45  cd RuPaul
+   46  mkdir "Glamazon"
+   47  mkdir "Champion"
+   48  mkdir "American"
+   49  ls
+   50  cd Music
+   51  cd
+   52  cd Music/ Corey Feldman
+   53  cd Music/Corey Feldman
+   54  cd  directory\ name
+   55  cd  directory\ Corey Feldman
+   56  cd  Music\ Corey Feldman
+   57  pwd
+   58  cd  Music\Corey Feldman
+   59  ls
+   60  cd  Music\"Corey Feldman"
+   61  cd  Music/Corey\ Feldman
+   62  cd  Corey\ Feldman
+   63  mkdir "Angelic 2 The Core"
+   64  mkdir "Former Child Actor"
+   65  cd
+   66  cd Music/Lil\Dicky
+   67  cd Music/Lil\ Dicky
+   68  mkdir "Professional Rapper"
+   69  mkdor "So Hard"
+   70  mkdr "So Hard"
+   71  mkdir "So Hard"
+   72  cd
+   73  cd Music
+   74  cd Rupaul
+   75  cd RuPaul
+   76  ls
+   77  rm -r American
+   78  ls
+   79  cd
+   80  clear
+   81  tree
+   82  pwd
+   83  .
+   84  cd.
+   85  sudp apt get-updates
+   86  sudo apt get-updates
+   87  tree
+   88  rmdir /music.rupaul/glamazon
+   89  rmdir /music/rupaul/glamazon
+   90  rmdir ./music/rupaul/glamazon
+   91  rmdir ./Music/RuPaul/Glamazon
+   92  tree
+   93  cd music
+   94  cd Music
+   95  rmdir RuPaul
+   96  rmdir RuPaul -force
+   97  rmdir RuPaul -f
+   98  rmdir -man
+   99  rmdir man
+  100  rmdir --help
+  101  rmdir -rf RuPaul
+  102  rmdir -r /RuPaul
+  103  rmdir -rm /RuPaul
+  104  rmdir -rf /RuPaul
+  105  rm -rf /RuPaul
+  106  tree
+  107  rm -rfv /RuPaul
+  108  tree
+  109  rm -rf /RuPaul
+  110  tree
+  111  rm -r /RuPaul
+  112  ls
+  113  rmdir -rf /RuPaul
+  114  rmdir -rf ./RuPaul
+  115  rm -rf ./RuPaul
+  116  tree
+  117  mkdir Test\ Directory
+  118  tree
+  119  cp ./Test \Directory ./Lil\ Dicky/So\ Hard
+  120  cp ./Test\ Directory ./Lil\ Dicky/So\ Hard
+  121  ls
+  122  tree
+  123  rmdir -rf ./*
+  124  rm -rf ./*
+  125  cd.
+  126  cd
+  127  tree
+  128  cd Music
+  129  mkdir TestReceive
+  130  mkdir TestSend
+  131  mkdir ThirdDirectory
+  132  vim
+  133  date
+  134  arch
+  135  uname -a
+  136  man uname
+  137  man dmesg
+  138  man more
+  139  dmesg | more
+  140  uptime
+  141  whoami
+  142  man whoami
+  143  who
+  144  man who
+  145  lasy
+  146  last
+  147  man lasy
+  148  man las
+  149  ma last
+  150  man last
+  151  man finger
+  152  finger
+  153  man 
+  154  man w
+  155  w
+  156  man top
+  157  top
+  158  echo $SHELL
+  159  echo {con,pre} {sent,fer} {s,ed}
+  160  man echo
+  161  echo {con,pre}{sent,fer}{s,ed}
+  162  man ls
+  163  clear
+  164  clear 2000
+  165  cal 2000
+  166  cal 9 1752
+  167  cal8 982
+  168  cal 8 982
+  169  yes pleasse
+  170  yes please |more
+  171  man yes
+  172  man time
+  173  man time -sleep
+  174  man sleeop
+  175  man sleep
+  176  time sleep 5
+  177  man history
+  178  history
+  179  man history
+  180  man vim
+  181  tree
+  182  rm music
+  183  rm Music
+  184  rm /Music
+  185  rm ./Music
+  186  rm -f ./Music
+  187  rm -rf ./Music
+  188  tree
+  189  mkdir Tutorial
+  190  tree
+  191  cd Tutorial
+  192  vim HelloWorld.java
+  193  tree
+  194  cd -ls
+  195  cd -l
+  196  vim HelloWorld.java
+  197  tree
+  198  vim HellloWorld.java
+  199  vim HelloWorld.java
+  200  vim GoodbyeWorld.java
+  201  cd ./Tutorial
+  202  vim HelloWorld.java
+  203  tree
+  204  vim Script
+  205  Script
+  206  chmod 750 Script
+  207  Script -ls
+  208  vim Script
+  209  mv ./Script ./FinalAssignment
+  210  tree
+  211  FinalAssignmment
+  212  ./FinalAssignment
+  213  vim FinalAssignment
+  214  ./FinalAssignment
+  215  vim FinalAssignment
+  216  ./FinalAssignment
+  217  vim FinalAssignment
+  218  man top
+  219  top -q
+  220  top -hv
+  221  top
+  222  top -lp
+  223  top -0
+  224  top -n 0
+  225  top -n 1
+  226  tree
+  227  vim FinalAssignnment
+  228  vim ./FinalAssignnment
+  229  vim ./FinalAssignment
+  230  ./FinalAssignment
+  231  vim ./FinalAssignment
+  232  history
+  233  vim ./FinalAssignment
+  234  pwd
+  235  cd /Tutorial
+  236  cd ./Tutorial
+  237  -ls
+  238  ls
+  239  touch lucMcAuley.txt
+  240  ls
+  241  ./FinalAssignment >> lucMcAuley.txt
+  242  ./lucMcAuley.txt
+  243  chmod 750 ./lucMcAuley.txt
+  244  ./lucMcAuley.txt
+  245  vim lucMcAuley.txt
+  246  FinalAssignment -ls
+  247  ./FinalAssignment -ls
+  248  cd..
+  249  cd ..
+  250  tree
+  251  ./lucmcauley
+  252  cd ./lucmcauley
+  253  pwd
+  254  ls-l
+  255  /home/lucmcauley ls-l
+  256  cd /Tutorial
+  257  cd ./Tutorial
+  258  FinalAssignment ls l-
+  259  ./FinalAssignment ls l-
+  260  mv ./FinalAssignment ./FinalAssignment.sh
+  261  ls
+  262  ls -l
+  263  cd..
+  264  cd ..
+  265  ls -l
+  266  pwd
+  267  ls -l
+  268  cd.
+  269  cd ..
+  270  ls -l
+  271  lynx www.google.com
+  272  cd ./lucmauley/Tutorial
+  273  pwd
+  274  cd ./lucmcauley/Tutorial
+  275  vim WhileLoop.sh
+  276  ./WhileLoop.sh
+  277  ./WhileLoop.sh ls -l
+  278  ls-l
+  279  ls -l
+  280  chmod 700 ./WhileLoop.sh
+  281  ./WhileLoop.sh
+  282  tree
+  283  WhileLoop.sh
+  284  ./WhileLoop.sh
+  285  ls-l
+  286  ls -l
+  287  chmod 777 ./WhileLoop.sh
+  288  ./WhileLoop.sh
+  289  ls -l
+  290  ./FinalAssignment.sh
+  291  vim WhileLoop.sh
+  292  ./WileLoop.sh
+  293  ./WhileLoop.sh
+  294  vim WhileLoop.sh
+  295  ./WhileLoop.sh
+  296  vim WhileLoop.sh
+  297  ./WhileLoop.sh
+  298  vim WhileLoop.sh
+  299  ./WhileLoop.sh
+  300  vim WhileLoop.sh
+  301  ./WhileLoop.sh
+  302  vim WhileLoop.sh
+  303  ./WhileLoop.sh
+  304  vim WhileLoop.sh
+  305  ./WhileLoop.sh
+  306  vim WhileLoop.sh
+  307  ./WhileLoop.sh
+  308  count=1
+  309  echo $count
+  310  while [ count < 3 ]; echo "Hello"; done
+  311  while [ count < 3 ]; echo "Hello"; $count=$((count+1));  done
+  312  while [ count < 3 ]; echo "Hello"; $count=$(( count+1 ));  done
+  313  echo $count
+  314  while [ count < 3]; echo Hello; $count = $(( count + 1 )); done
+  315  while [ count < 3]; do; echo Hello; $count = $(( count + 1 )); done
+  316  while [ count < 3] do; echo Hello; $count = $(( count + 1 )); done
+  317  echo $count
+  318  while [count < 3]; do echo Hello; $count = $((count+1)); done
+  319  while [count < 3]; do echo "Hello"; $count = $((count+1)); done
+  320  # set n to 1
+  321  n=1
+  322  # continue until $n equals 5
+  323  while [ $n -le 5 ]; do echo "Welcome $n times."; n=$(( n+1 )) # increments $n; done
+  324  vim ./WhileLoop.sh
+  325  ./WhileLoop.sh
+  326  vim ./WhileLoop.sh
+  327  ./WhileLoop.sh
+  328  vim ./WhileLoop.sh
+  329  ./WhileLoop.sh
+  330  vim ./WhileLoop.sh
+  331  ./WhileLoop.sh
+  332  vim ./WhileLoop.sh
+  333  ./WhileLoop.sh
+  334  vim ./WhileLoop.sh
+  335  ./WhileLoop.sh
+  336  vim ./WhileLoop.sh
+  337  ./WhileLoop.sh
+  338  vim ./WhileLoop.sh
+  339  ./WhileLoop.sh
+  340  vim ./WhileLoop.sh
+  341  ./WhileLoop.sh
+  342  vim ./WhileLoop.sh
+  343  ./WhileLoop.sh
+  344  vim ./WhileLoop.sh
+  345  ./WhileLoop.sh
+  346  vim ./WhileLoop.sh
+  347  ./WhileLoop.sh
+  348  vim ./WhileLoop.sh
+  349  ./WhileLoop.sh
+  350  vim ./WhileLoop.sh
+  351  d
+  352  a
+  353  vim ./WhileLoop.sh
+  354  ./WhileLoop.sh
+  355  vim ./WhileLoop.sh
+  356  ./WhileLoop.sh
+  357  vim ./WhileLoop.sh
+  358  tree
+  359  vim ./Tutorial/WhileLoop.sh
+  360  rm ./Tutorial/.WhileLoop.sh.swp
+  361  vim ./Tutorial/WhileLoop.sh
+  362  ./Tutorial/WhileLoop.sh
+  363  vim ./Tutorial/WhileLoop.sh
+  364  ./Tutorial/WhileLoop.sh
+  365  vim ./Tutorial/WhileLoop.sh
+  366  rm ./Tutorial/WhileLoop.sh.swp
+  367  vim ./Tutorial/WhileLoop.sh
+  368  rm ./Tutorial/WhileLoop.sh.swp
+  369  vim ./Tutorial/WhileLoop.sh
+  370  rm ./Tutorial/WhileLoop.sh.swp
+  371  ./Tutorial/WhileLoop.sh
+  372  vim ./Tutorial/WhileLoop.sh
+  373  w
+  374  vim ./Tutorial/WhileLoop.sh
+  375  ./Tutorial/WhileLoop.sh
+  376  vim ./Tutorial/WhileLoop.sh
+  377  ./Tutorial/WhileLoop.sh
+  378  vim ./Tutorial/WhileLoop.sh
+  379  ./Tutorial/WhileLoop.sh
+  380  vim ./Tutorial/WhileLoop.sh
+  381  ./Tutorial/WhileLoop.sh
+  382  vim ./Tutorial/WhileLoop.sh
+  383  ./Tutorial/WhileLoop.sh
+  384  n
+  385  vim ./Tutorial/WhileLoop.sh
+  386  ./Tutorial/WhileLoop.sh
+  387  vim ./Tutorial/WhileLoop.sh
+  388  ./Tutorial/WhileLoop.sh
+  389  vim ./Tutorial/WhileLoop.sh
+  390  ./Tutorial/WhileLoop.sh
+  391  vim ./Tutorial/WhileLoop.sh
+  392  ./Tutorial/WhileLoop.sh
+  393  vim ./Tutorial/WhileLoop.sh
+  394  ./Tutorial/WhileLoop.sh
+  395  vim ./Tutorial/WhileLoop.sh
+  396  ./Tutorial/WhileLoop.sh
+  397  vim ./Tutorial/WhileLoop.sh
+  398  ./Tutorial/WhileLoop.sh
+  399  vim ./Tutorial/WhileLoop.sh
+  400  ./Tutorial/WhileLoop.sh
+  401  vim ./Tutorial/WhileLoop.sh
+  402  ./Tutorial/WhileLoop.sh
+  403  vim ./Tutorial/WhileLoop.sh
+  404  ./Tutorial/WhileLoop.sh
+  405  vim ./Tutorial/WhileLoop.sh
+  406  ./Tutorial/WhileLoop.sh
+  407  vim ./Tutorial/WhileLoop.sh
+  408  ./Tutorial/WhileLoop.sh
+  409  vim ./Tutorial/WhileLoop.sh
+  410  ./Tutorial/WhileLoop.sh
+  411  vim ./Tutorial/WhileLoop.sh
+  412  ./Tutorial/WhileLoop.sh
+  413  vim ./Tutorial/WhileLoop.sh
+  414  tree
+  415  vim FinalAssignment.sh
+  416  vim ./Tutorial/FinalAssignment.sh
+  417  ./Tutorial/FinalAssignment.sh
+  418  vim ./Tutorial/FinalAssignment.sh
+  419  tree
+  420  mkdir Temp
+  421  cp ./Tutorial/FinalAssignment.sh ./Temp
+  422  tree
+  423  cd ./Temp
+  424  vim FinalAssignment.sh
+  425  ./temp/FinalAssignment.sh
+  426  ./Temp/FinalAssignment.sh
+  427  ./FinalAssignment.sh
+  428  vim ../Tutorial/lucMcAuley.txt
+  429  man history
+  430  ./FinalAssignment.sh
+  431  vim FinalAssignment.sh
+  432  ./FinalAssignment.sh
+  433  vim lucmcauley.txt
+  434  rm lucmcauley.txt
+  435  tree
+  436  vim FinalAssignment.sh
+  437  ./FinalAssignment.sh
+  438  man top
+  439  vim FinalAssignment.sh
+  440  top -n 1
+  441  vim FinalAssignment.sh
+  442  ./FinalAssignment.sh
+  443  rm lucmcauley.txt
+  444  ./FinalAssignment.sh
+  445  vim ./lucmcauley.txt
+  446  echo hello
+  447  tree
+  448  whoami
+  449  dmesg
+  450  dmesg man
+  451  man dmesg
+  452  who
+  453  finger
+  454  man finger
+  455  man w
+  456  top
+  457  echo $shell
+  458  echo $Shell
+  459  echo $SHELL
+  460  man echo
+  461  man ls
+  462  cal 2000
+  463  cal 9 1752
+  464  man time
+  465  time sleep 5
+  466  time
+  467  man time
+  468  vim
+  469  tree
+  470  .temp
+  471  cd .temp
+  472  cd .Temp
+  473  cd Temp
+  474  vim FinalAssignment.sh
+  475  FinalAssigtnment.sh
+  476  FinalAssignment.sh
+  477  vim lucmcauley.txt
+  478  cd .
+  479  .
+  480  cd
+  481  cd Tutorial
+  482  vim WhileLoop.sh
+  483  vim FinalCATC.sh
+  484  vim WhileLoop.sh
+  485  vim FinalCATC.sh
+  486  FinalCATC.sh
+  487  run FinalCatC.sh
+  488  bash FinalCATC.sh
+  489  vim FinalCATC.sh
+  490  bash FinalCATC.sh
+  491  vim FinalCATC.sh
+  492  bash FinalCATC.sh
+  493  vim FinalCATC.sh
+  494  bash FinalCATC.sh
+  495  vim FinalCATC.sh
+  496  bash FinalCATC.sh
+  497  vim FinalCATC.sh
+  498  bash FinalCATC.sh
+  499  vim FinalCATC.sh
+  500  tree
+  501  vim FinalAssignment.sh
+  502  cd.
+  503  cd
+  504  tree
+  505  cd Temp
+  506  vim FinalAssignment.sh
+  507  cd ./Tutorial
+  508  cd
+  509  cd Tutorial
+  510  vim FinalCATC.sh
+  511  tree
+  512  vim ./Tutorial/FinalCATC.sh
+  513  ./Tutorial/FinalCATC.sh
+  514  tree
+  515  vim ./Temp/FinalAssignment.sh
+  516  ./Tutorial/FinalCATC.sh
+  517  vim ./Tutorial/FinalCATC.sh
+  518  ./Tutorial/FinalCATC.sh
+  519  vim ./Tutorial/FinalCATC.sh
+  520  tree
+  521  vim ./Tutorial/output.txt
+  522  vim ./Tutorial/FinalCATC.sh
+  523  ./Tutorial/FinalCATC.sh
+  524  vim ./Tutorial/output.txt
+  525  rm ./Tutorial/output.txt
+  526  ./Tutorial/FinalCATC.sh
+  527  vim ./Tutorial/output.txt
+  528  rm ./Tutorial/output.txt
+  529  vim ./Tutorial/FinalCATC.sh
+  530  whoami
+  531  vim ./Tutorial/FinalCATC.sh
+  532  ./Tutorial/FinalCATC.sh
+  533  vim ./Tutorial/output.txt
+  534  rm ./Tutorial/output.txt
+  535  vim ./Tutorial/FinalCATC.sh
+  536  ./Tutorial/FinalCATC.sh
+  537  vim ./Tutorial/output.txt
+  538  rm ./Tutorial/output.txt
+  539  vim ./Tutorial/FinalCATC.sh
+  540  vim ./Tutorial/output.txt
+  541  ./Tutorial/FinalCATC.sh
+  542  vim ./Tutorial/output.txt
+  543  rm ./Tutorial/output.txt
+  544  vim ./Tutorial/FinalCATC.sh
+  545  ./Tutorial/FinalCATC.sh
+  546  vim ./Tutorial/output.txt
+  547  rm ./Tutorial/output.txt
+  548  vim ./Tutorial/FinalCATC.sh
+  549  ./Tutorial/FinalCATC.sh
+  550  rm ./Tutorial/output.txt
+  551  vim ./Tutorial/FinalCATC.sh
+  552  ./Tutorial/FinalCATC.sh
+  553  vim ./Tutorial/FinalCATC.sh
+  554  rm ./Tutorial/output.txt
+  555  ./Tutorial/FinalCATC.sh
+  556  man top
+  557  top -d 0
+  558  top -d 1
+  559  man top
+  560  top -bn 1
+  561  vim ./Tutorial/FinalCATC.sh
+  562  rm ./Tutorial/output.txt
+  563  ./Tutorial/FinalCATC.sh
+  564  vim ./Tutorial/output.txt
+  565  rm ./Tutorial/output.txt
+  566  vim ./Tutorial/FinalCATC.sh
+  567  ./Tutorial/FinalCATC.sh
+  568  man history
+  569  echo $BASH_VERSION
+  570  vim ./Tutorial/FinalCATC.sh
+  571  ./Tutorial/FinalCATC.sh
+  572  vim ./Tutorial/FinalCATC.sh
+  573  rm ./Tutorial/output.txt
+  574  ./Tutorial/FinalCATC.sh
+  575  vim ./Tutorial/FinalCATC.sh
+  576  rm ./Tutorial/output.txt
+  577  ./Tutorial/FinalCATC.sh
+  578  rm ./Tutorial/output.txt
+  579  vim ./Tutorial/FinalCATC.sh
+  580  ./Tutorial/FinalCATC.sh
+  581  vim ./Tutorial/output.txt
+  582  tree
+  583  vim ./Tutorial/FinalCATC.sh
+  584  ./Tutorial/FinalCATC.sh
+  585  chmod -R 777 ./Tutorial/FinalCATC
+  586  chmod -R 777 ./Tutorial/FinalCATC.sh
+  587  ./Tutorial/FinalCATC.sh
+  588  vim ./Tutorial/FinalCATC.sh
+  589  ./Tutorial/FinalCATC.sh
+  590  tree
+  591  man touch
+  592  vim ./Tutorial/FinalCATC.sh
+  593  finger
+  594  tree
+  595  vim ./Tutorial/FinalCATC.sh
+  596  ./Tutorial/FinalCATC.sh
+  597  vim ./Tutorial/output.txt
+  598  rm ./Tutorial/output.txt
+  599  vim ./Tutorial/FinalCATC.sh
+  600  ./Tutorial/FinalCATC.sh
+  601  vim ./Tutorial/output.txt
+  602  rm ./Tutorial/output.txt
+  603  vim ./Tutorial/FinalCATC.sh
+  604  ./Tutorial/FinalCATC.sh
+  605  vim ./Tutorial/output.txt
+  606  rm ./Tutorial/output.txt
+  607  vim ./Tutorial/FinalCATC.sh
+  608  ./Tutorial/FinalCATC.sh
+  609  vim ./Tutorial/output.txt
+  610  ls -l
+  611  cd
+  612  ls -l
+  613  cd /
+  614  ls-l
+  615  ls -l
+  616  pwd
+  617  cd
+  618  pwd
+  619  cd /home
+  620  ls-l
+  621  ls -l
+  622  ls -l | grep lucmcauley
+  623  lynx googl.com
+  624  tree
+  625  cd ./lucmcauley
+  626  pwd
+  627  tree
+  628  mv ./Tutorial/FinalCATC.sh ./Temp/FinalCATC.sh
+  629  tree
+  630  cd ./Temp
+  631  vim FinalCATC
+  632  vim FinalCATC.sh
+  633  FinalCATC.sh
+  634  ./FinalCATC.sh
+  635  tree
+  636  cp ./Temp/FinalCATC.sh ./Tutorial/FinalCATC.sh
+  637  tree
+  638  vim ./Tutorial/FinalCATC.sh
+  639  exit
+  640  tree
+  641  vim ./FinalCATC.sh
+  642  vim ./Tutorial/FinalCATC.sh
+  643  cd ./Toturial
+  644  cd ./Tutorial
+  645  rm output.txt
+  646  tree
+  647  FinalCATC.sh
+  648  ./FinalCATC.sh
+  649  vim ./output.txt
+  650  exit
+  651  tree
+  652  cd ./Tutorial
+  653  vim ./WhileLoop
+  654  vim ./WhileLoop.sh
+  655  ./WhileLoop.sh
+  656  vim ./WhileLoop.sh
+  657  ./WhileLoop.sh
+  658  vim ./WhileLoop.sh
+  659  ./WhileLoop.sh
+  660  vim ./WhileLoop.sh
+  661  ./WhileLoop.sh
+  662  vim ./WhileLoop.sh
+  663  ./WhileLoop.sh
+  664  vim ./WhileLoop.sh
+  665  ./WhileLoop.sh
+  666  vim ./WhileLoop.sh
+  667  ./WhileLoop.sh
+  668  vim ./WhileLoop.sh
+  669  ./WhileLoop.sh
+  670  exit
+  671  ./WhileLoop.sh
+  672  cd ./Tutorial/WhileLoop.sh
+  673  cd ./Tutorial
+  674  ./WhileLoop.sh
+  675  echo hello
+  676  man passwd
+  677  uname -a
+  678  uptime
+  679  who
+  680  finger
+  681  w
+  682  tree
+  683  rm ./Tutorial/output.txt
+  684  tree
+  685  ./Tutorial./FinalCATC.sh
+  686  ./Tutorial/FinalCATC.sh
+  687  ./Tutorial/output.txt
+  688  vim./Tutorial/output.txt
+  689  vim ./Tutorial/output.txt
+  690  vim ./Tutorial/FinalCATC.sh
+  691  rm ./Tutorial/output.txt
+  692  ./Tutorial/FinalCATC.sh
+  693  vim ./Tutorial/output.txt
+  694  rm ./Tutorial/output.txt
+  695  vim ./Tutorial/FinalCATC.sh
+  696  ./Tutorial/FinalCATC.sh
+  697  vim ./Tutorial/output.txt
+  698  tree
+  699  vim ./Tutorial/output.txt
+  700  vim ./Tutorial/FinalCATC.sh
+  701  ./Tutorial/FinalCATC.sh
+  702  tree
+  703  vim ./Tutorial/lucMcAuley.txt
+  704  vim ./Tutorial/WhileLoop.txt
+  705  vim ./Tutorial/WhileLoop.sh
+  706  ./Tutorial/WhileLoop.sh
+  707  vim ./Tutorial/WhileLoop.sh
+  708  ./Tutorial/WhileLoop.sh
+  709  vim ./Tutorial/WhileLoop.sh
+  710  ./Tutorial/WhileLoop.sh
+  711  vim ./Tutorial/WhileLoop.sh
+  712  ./Tutorial/WhileLoop.sh
+  713  vim ./Tutorial/WhileLoop.sh
+  714  ./Tutorial/WhileLoop.sh
+  715  history
+  716  clear
+  717  echo hello world
+  718  passwd
+  719  who
+  720  w
+  721  finger
+  722  man ls
+  723  date
+  724  arch
+  725  uname -a
+  726  dmesg | more
+  727  uptime
+  728  whoami
+  729  who
+  730  finger
+  731  w
+  732  top
+  733  echo $SHELL
+  734  echo {con,pre}{sent,fer}{s,d}
+  735  echo {con,pre}{sent,fer}{s,ed}
+  736  man ls
+  737  man who
+  738  clear
+  739  cal 2000
+  740  cal 9 1752
+  741  yes please
+  742  time sleep 5
+  743  history
+  744  last
+  745  man last
+  746  history
+  747  hostname
+  748  man hostname
+  749  history
+  750  exit

@@ -1,0 +1,3 @@
+Final Assignment Computational Thinking with Algorithms
+
+For this project you will write an application which will be used to benchmark five different sorting algorithms. You will also write a report which introduces the algorithms you have chosen, and discusses the results of the benchmarking process.

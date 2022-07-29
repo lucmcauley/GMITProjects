@@ -1,0 +1,3 @@
+Final Assignment Computer Architecture and Technology Convergence
+
+This assignment covers topics such as logic gates, binary operations, AWS and UNIX terminal commands, as well as scripting. 
