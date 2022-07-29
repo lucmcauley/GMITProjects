@@ -1,0 +1,3 @@
+Midterm Assignment Agile Programming
+
+You are required to produce a written report for the given scenario: A new company (CGHM) has been formed with the goal of producing a rival to the e-commerce web site Amazon. After hiring a team of talented developers, the company is unsure as to what agile development model to follow. After some deliberation they have narrowed the selection to either the Extreme Programming or Scrum Methodologies. You are required to produce a report to recommend a methodology to the company (either the Extreme Programming or Scrum Methodology) and to justify your recommendation.

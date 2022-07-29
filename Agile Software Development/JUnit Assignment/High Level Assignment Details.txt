@@ -1,0 +1,7 @@
+Midterm Assignment JUnit5 implementation and refactoring
+
+
+• You are required to refactor this code so that can be tested using JUnit5.
+• You test should contain a test suite.
+• Your test code should contain the following annotations @BeforeAll,@BeforeEach,@Test, @ParameterizedTest, @Timeout, @AfterAll and @AfterEach.
+• Your code should also be able to test for two different kinds of exceptions.

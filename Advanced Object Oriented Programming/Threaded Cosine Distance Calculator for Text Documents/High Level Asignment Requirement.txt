@@ -1,0 +1,12 @@
+Final Project for Advanced Object Oriented Software Development Module. 
+
+You are required to develop a Java API that can rapidly compare a query file against a subject file by computing the cosine distance between them. The API should uphold the principles of loose-coupling and high cohesion throughout its design by correctly applying abstraction, encapsulation, composition and inheritance.
+
+• Use the package name ie.gmit.dip. The application must be deployed and runnable using "java –cp ./cosine.jar ie.gmit.dip.Runner"
+• Create a console-based menu-driven UI to input the path of a subject file to index and a query file to compare. Any other input parameters should be input through the menu- driven UI.
+• Each file should be parsed, processed and added to a rapidly searchable data structure.
+• The application should be fully threaded and use Runnable types where appropriate.
+• The output of the system should be the percentage similarity of the input query file
+against the subject file.
+• Provide a UML diagram of your design and fully JavaDoc your code.
+• A directory containing the JavaDocs for your application. 
