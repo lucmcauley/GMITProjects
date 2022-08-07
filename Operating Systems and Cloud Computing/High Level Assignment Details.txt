@@ -1,0 +1,3 @@
+Operating Systems and Cloud Computing - Final Assignment
+
+Each student is required to create a WordPress website. The website must be hosted on an AWS cloud-based LAMP server which you have built. You may use the LAMP sever you created in Labs. The website will be based on Manjaro Linux. 

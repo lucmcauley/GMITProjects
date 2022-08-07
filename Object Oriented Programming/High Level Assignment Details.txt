@@ -1,0 +1,3 @@
+Object Oriented Programming - Final Project
+
+You are required to develop a command line menu-driven Java application that is capable of encrypting and decrypting a short message or file using a Rail Fence cypher. The Rail Fence is a transposition cypher, where the letters of a plaintext are rearranged using a pattern to encrypt a message

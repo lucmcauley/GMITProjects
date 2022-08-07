@@ -1,0 +1,4 @@
+Network Technologies - Midterm Assignment
+
+Assignment: Networking with Cisco Packet Tracer
+You are the network administrator for a new office, and you've been tasked with setting up a small network. You've been assigned the network address 193.1.204.0/24, and have decided to split the network up into a number of subnets.
