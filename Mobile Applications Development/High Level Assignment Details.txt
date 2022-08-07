@@ -1,0 +1,10 @@
+Mobile Applications Development - Final Assignment
+
+Write an Ionic mobile application that reads weather and news stories from internet resources.
+
+The web app should consist of the following pages:
+Home Page
+Settings Page
+Home Page with Weather
+Home Page with Weather & News
+Home Page with unknown City
