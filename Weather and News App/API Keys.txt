@@ -1,0 +1,10 @@
+News:		Key: cf29781f71394a98bca1dd63fbd1e1e4
+		Format: https://newsapi.org/v2/top-headlines?country={country}&pageSize={pageSize}&apiKey=cf29781f71394a98bca1dd63fbd1e1e4
+		Example: https://newsapi.org/v2/top-headlines?country=$IE&pageSize=$5&apiKey=cf29781f71394a98bca1dd63fbd1e1e4
+
+ Weather: 	Key: 3a9eec99e620f269bfb159a32c0f3288
+		Format: http://api.openweathermap.org/data/2.5/weather?q={city}&units={unit}&appid=3a9eec99e620f269bfb159a32c0f3288
+		Example: http://api.openweathermap.org/data/2.5/weather?q=kilkenny&units=metric&appid=3a9eec99e620f269bfb159a32c0f3288
+
+Movies:		Key: e1ea13ee
+		Format: http://www.omdbapi.com/?apikey=e1ea13ee&s='war'
